@@ -29,7 +29,6 @@ const mkdirp = path1 =>
     return currentPath;
   }, __dirname);
 
-
 const markdownTemplate = answers =>
   `---
 lang: ${answers.lang}
