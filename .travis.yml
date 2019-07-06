@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "10"
+cache:
+  yarn: true
+  directories:
+    - public
+script:
+  - yarn lint
+
+deploy:
+  provider: npm
+  email: "gory.alexandre02@gmail.com"
+  api_key: "YOUR_AUTH_TOKEN"

@@ -8,7 +8,7 @@
     "format": "prettier --write src/**/*.{js,jsx}  *.js",
     "lint": "prettier -c src/**/*.{js,jsx}"
   },
-  "author": "GORY Alexandre <gory.alexandre@gmail.com>",
+  "author": "GORY Alexandre <gory.alexandre02@gmail.com>",
   "license": "MIT",
   "husky": {
     "hooks": {
