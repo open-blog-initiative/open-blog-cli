@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "10"
+
+script:
+  - yarn lint
+
+deploy:
+  provider: npm
+  email: "gory.alexandre02@gmail.com"
+  api_key: "YOUR_AUTH_TOKEN"
